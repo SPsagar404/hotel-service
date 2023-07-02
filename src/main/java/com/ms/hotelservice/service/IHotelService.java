@@ -15,4 +15,5 @@ public interface IHotelService {
     public boolean updateHotel(Long id,Hotel hotel);
 
     public boolean deleteHotelById(Long hotelId);
+
 }

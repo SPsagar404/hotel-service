@@ -26,11 +26,11 @@ public class Hotel {
     @Column(name = "ABOUT")
     private String about;
 
-    @Column(name = "CREATEDDATE",updatable = false)
+    @Column(name = "CREATED_DATE",updatable = false)
     @CreationTimestamp
     private LocalDate createData;
 
-    @Column(name = "UPDATEDDATE",insertable = false)
+    @Column(name = "UPDATED_DATE",insertable = false)
     @UpdateTimestamp
     private LocalDate updateDate;
 
