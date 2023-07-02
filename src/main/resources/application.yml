@@ -18,3 +18,7 @@ spring:
     show-sql: true
   application:
     name: Hotel-Service
+eureka:
+  client:
+    service-url:
+      default-zone: http://localhost:8761/eureka/
